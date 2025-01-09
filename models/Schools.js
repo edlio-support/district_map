@@ -16,7 +16,7 @@ const getSchoolData = async function (data) {
 }
 
 const Schools = {
-    ids: ['301', '304', '305', '303', '302', '8380'],
+    ids: ['301', '304', '17318', '17318', '302', '8380'],
     idString: function () {
         return this.ids.toString().replace(new RegExp(',', 'g'), ';');
     }
